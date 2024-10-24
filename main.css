@@ -24,9 +24,25 @@ body {
 .message {
   font-size: 40px;
   color: #343a40;
+  margin-bottom: 15px;
 }
 
 b {
   color: #007bff;
   font-weight: bold;
+}
+
+.discord-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7289da; /* Discord blue */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.discord-link:hover {
+  background-color: #5b6eae; /* Darker blue on hover */
 }
